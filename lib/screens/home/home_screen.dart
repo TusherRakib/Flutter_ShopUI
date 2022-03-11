@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
             SvgPicture.asset("assets/icons/Location.svg"),
             const SizedBox(width: defaultPadding / 2),
             Text(
-              "15/2 New Texas",
+              "12, Bailey Road, Dhaka - 1217",
               style: Theme.of(context).textTheme.bodyText1,
             ),
           ],
@@ -44,14 +44,14 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Explore",
+              "ClotheX",
               style: Theme.of(context)
                   .textTheme
                   .headline4!
                   .copyWith(fontWeight: FontWeight.w500, color: Colors.black),
             ),
             const Text(
-              "best Outfits for you",
+              "Comfort with best fits",
               style: TextStyle(fontSize: 18),
             ),
             const Padding(
